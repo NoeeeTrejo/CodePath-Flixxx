@@ -126,6 +126,7 @@
 		1489A74D380E5A5F966EF2F835FEA31A /* Pods-Flixxx */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Flixxx"; path = Pods_Flixxx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16437190FE6F2C25CA23DC64D4F18647 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		16C7FCD8544300C8203893C31F6A19BE /* Pods-Flixxx-FlixxxUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Flixxx-FlixxxUITests"; path = Pods_Flixxx_FlixxxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1833374627D450BF0034BFB1 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MovieGridViewController.swift; path = ../Flixxx/MovieGridViewController.swift; sourceTree = "<group>"; };
 		1D7C732AD4969EA31141CC60220FA9BF /* Pods-Flixxx-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Flixxx-frameworks.sh"; sourceTree = "<group>"; };
 		1E50D27721C847DD00BD7F5B9D647620 /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
 		1F1DFB215009143EE326BD117E20EEBA /* Pods-Flixxx-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Flixxx-umbrella.h"; sourceTree = "<group>"; };
@@ -176,7 +177,7 @@
 		9B4C4122EDBA86EFB7ACAABA0F279440 /* Pods-Flixxx-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flixxx-acknowledgements.plist"; sourceTree = "<group>"; };
 		9B9CCA17F9E7E6C605DF9F67489C687F /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		9BFDC43429D18B0E19D2678ED471170E /* UIImageView+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+AlamofireImage.swift"; path = "Source/UIImageView+AlamofireImage.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1D8E1BE0F77EDA2ED4079B663121386 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		A4BE2B75AC61526C75330CC584A8FF00 /* Pods-Flixxx-FlixxxUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flixxx-FlixxxUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AD341119D703A2B05ACA3C9EB39F94A2 /* Pods-Flixxx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flixxx.debug.xcconfig"; sourceTree = "<group>"; };
@@ -393,13 +394,13 @@
 				C4C41AC1D2B69BFDE3BEF3354C0BFBDF /* Validation.swift */,
 				F1168143CD14105FB88D2083DF83E512 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
+				1833374627D450BF0034BFB1 /* MovieGridViewController.swift */,
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				48B136F15B4E207CBFF4477A3C4F5067 /* Pods */,
@@ -439,7 +440,6 @@
 				9BFDC43429D18B0E19D2678ED471170E /* UIImageView+AlamofireImage.swift */,
 				AAA4A9A9C0D42409D004EA1CDEBCF623 /* Support Files */,
 			);
-			name = AlamofireImage;
 			path = AlamofireImage;
 			sourceTree = "<group>";
 		};
